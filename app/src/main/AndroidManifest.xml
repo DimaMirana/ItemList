@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.itemlist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddChemicalActivity" />
+        <activity android:name=".AddGlassActivity" />
+        <activity android:name=".AddOtherActivity" />
+        <activity android:name=".AddPlasticActivity" />
+        <activity android:name=".ChemicalMainActivity" />
+        <activity android:name=".GlasswareMainActivity" />
+        <activity android:name=".OthersMainActivity" />
+        <activity android:name=".PlasticMainActivity" />
+        <activity android:name=".SellChemicalActivity" />
+        <activity android:name=".SellGlassActivity" />
+        <activity android:name=".SellOtherActivity" />
+        <activity android:name=".SellPlasticActivity" />
+        <activity android:name=".ViewChemicalActivity" />
+        <activity android:name=".ViewGlassActivity" />
+        <activity android:name=".ViewOtherActivity" />
+        <activity android:name=".ViewPlasticActivity" />
+        <activity android:name=".ChemicalDetailsActivity"></activity>
+    </application>
+
+</manifest>
